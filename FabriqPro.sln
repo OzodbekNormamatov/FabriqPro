@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2E64C71E-8C3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BA7511A4-4786-4D78-8B1F-2C9303483D6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabriqPro.Domain", "src\FabriqPro.Domain\FabriqPro.Domain.csproj", "{A4E70758-D35D-4E4E-ACAD-283A6DF3A0F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FabriqPro.Domain", "src\FabriqPro.Domain\FabriqPro.Domain.csproj", "{A4E70758-D35D-4E4E-ACAD-283A6DF3A0F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FabriqPro.Domain", "FabriqPro.Domain", "{7B9F2D04-E252-42A8-9AFE-CEEF241547AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,7 +26,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{A4E70758-D35D-4E4E-ACAD-283A6DF3A0F1} = {2E64C71E-8C3E-4882-9212-C9DB391D6E5E}
+		{A4E70758-D35D-4E4E-ACAD-283A6DF3A0F1} = {7B9F2D04-E252-42A8-9AFE-CEEF241547AF}
+		{7B9F2D04-E252-42A8-9AFE-CEEF241547AF} = {2E64C71E-8C3E-4882-9212-C9DB391D6E5E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D579BFC0-1A63-4B1F-B26A-C0F8ACDF07D0}
