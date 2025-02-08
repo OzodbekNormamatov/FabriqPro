@@ -1,4 +1,5 @@
 ﻿using FabriqPro.Domain.Commons;
+using System.Globalization;
 
 namespace FabriqPro.Domain.Entities;
 
@@ -18,7 +19,8 @@ public class User : Auditable
 
     public string Phone { get; set; }
 
-    public long WorkingPartId { get; set; }
-
     public WorkingPart WorkingPart { get; set; }
+    public long AssetId { get; set; }
+    public Asset Asset { get; set; }
+
 }
